@@ -89,7 +89,7 @@ https://github.com/torvalds/linux.git
 
 ##### Материалы для подготовки
 - [Руководство по Git](https://habr.com/ru/company/mailru/blog/493816/)
-
+- [Командная разработка](https://habr.com/ru/post/440816/)
 
 ##### Материалы
 - [РАБОТА В ТЕРМИНАЛЕ LINUX ДЛЯ НАЧИНАЮЩИХ](https://losst.ru/rabota-v-terminale-linux-dlya-nachinayushhih)
