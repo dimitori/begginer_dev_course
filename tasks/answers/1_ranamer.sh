@@ -31,10 +31,9 @@ rm -rf answer/*
 # тут пишем свой код:
 
 # Цикл прохода по списку имен файлов, имеющих расширение равное первому аргументу.
-for filename in *
+for filename in *.$1
 do
-  # cp $filename answer/${filename%$1}$2
-  echo "$filename"
+  cp $filename answer/${filename%$1}$2
 done
  
 exit 0
