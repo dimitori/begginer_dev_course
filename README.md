@@ -98,7 +98,6 @@ https://github.com/torvalds/linux.git
 
 ### Среда разработки
 
-Пока пусто
 
 
 ### Программирование 1LVL
