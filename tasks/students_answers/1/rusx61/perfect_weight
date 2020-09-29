@@ -1,0 +1,16 @@
+#!/bin/bash
+chmod +x ./perfect_weight
+echo "Enter your gender (m/f)"
+read gender
+echo "Enter your height (cm)"
+read height
+
+if [ $gender = "m" ]
+then
+	: $((perfectweight=$height-100*1,15))
+#	 perfectweigh=$height-100*1,15 |bc
+else
+	: $((perfectweight=$height-110*1,15))
+#	 perfectweigh=$height-100*1,15 |bc
+fi
+echo "Your pefect weight "$perfectweight" kg"
