@@ -7,7 +7,7 @@ read height
 
 if [ $gender = "m" ]
 then
-	: $((perfectweigh=$height-100*1,15))
+	: $((perfectweight=$height-100*1,15))
 #	 perfectweigh=$height-100*1,15 |bc
 else
 	: $((perfectweight=$height-110*1,15))
